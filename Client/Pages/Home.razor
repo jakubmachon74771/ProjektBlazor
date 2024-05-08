@@ -1,0 +1,18 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Jakub Machoń</h1>
+Nr albumu: 74771
+<p></p>
+Trzy komponenty: Zdjecia (galeria z przyciskami), Tabela (html) oraz Logo (zdjęcie z linkiem do wikipedii)
+
+<div style="padding-top:10px">
+    <p>Data wersji: @DateTime.UtcNow.ToLocalTime().ToLongDateString()</p>
+</div>
+
+<Zdjecia/>
+<p></p>
+<Tabela/>
+<p></p>
+<Logo/>
